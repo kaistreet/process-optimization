@@ -67,6 +67,7 @@ def pdf_link_extractor():
 	print('Program complete.')
 	time.sleep(rdm.uniform(0.0,0.3))
 
+	
 #Ask if user wants to run extractor tool, then loop if user has multiple PDFs to scan; leverages multiprocessing to speed up output.
 ask_run = str(input('Run the PDF link extraction tool? Enter y if yes or n if no: '))
 while ask_run == 'y' or ask_run == 'Y':	
